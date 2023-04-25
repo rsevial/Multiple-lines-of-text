@@ -18,6 +18,10 @@ with open("mylife.txt", "w") as main_file:
         if ask_user == "y":
             continue
 # Elif the user inputted "n", break
+        elif ask_user == "n":
+            break
 # Else, invalid
+        else:
+            print("Invalid. Try again!")
 # Ask the user again if there are more lines
 # Break, if the user inputted "n"
