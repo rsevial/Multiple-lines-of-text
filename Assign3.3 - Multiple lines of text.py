@@ -3,8 +3,9 @@
 # Multiple lines of text
 
 # Opening mylife.txt and assign as the main file
-with open("mylife.txt", "w") as my_file:
+with open("mylife.txt", "w") as main_file:
 # While loop asking the user for the lines
+    while True:
 # Ask the user to input lines
 # Input the lines in the text file
 # Inputted the lines in different line
