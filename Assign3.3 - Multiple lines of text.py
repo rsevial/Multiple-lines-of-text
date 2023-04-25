@@ -4,27 +4,27 @@
 
 # Opening mylife.txt and assign as the main file
 with open("mylife.txt", "w") as main_file:
-# While loop asking the user for the lines
+    # While loop asking the user for the lines
     while True:
-# Ask the user to input lines
+        # Ask the user to input lines
         inputted_lines = input("Enter line:")
-# Input the lines in the text file
+        # Input the lines in the text file
         main_file.write(inputted_lines)
-# Inputted the lines in different line
+        # Inputted the lines in different line
         main_file.write("\n")
-# Asking the user if are there more lines
+        # Asking the user if are there more lines
         ask_user = input("Are there more lines y/n?")
-# If the user inputted "y", continue
+        # If the user inputted "y", continue
         if ask_user == "y":
             continue
-# Elif the user inputted "n", break
+        # Elif the user inputted "n", break
         elif ask_user == "n":
             break
-# Else, invalid
+        # Else, invalid
         else:
             print("Invalid. Try again!")
-# Ask the user again if there are more lines
+            # Ask the user again if there are more lines
             ask_user = input("Are there more lines y/n? ")
-# Break, if the user inputted "n"
+            # Break, if the user inputted "n"
             if ask_user == "n":
                 break
