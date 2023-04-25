@@ -13,6 +13,7 @@ with open("mylife.txt", "w") as main_file:
 # Inputted the lines in different line
         main_file.write("\n")
 # Asking the user if are there more lines
+        ask_user = input("Are there more lines y/n?")
 # If the user inputted "y", continue
 # Elif the user inputted "n", break
 # Else, invalid
