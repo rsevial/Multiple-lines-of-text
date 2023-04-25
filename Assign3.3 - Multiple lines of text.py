@@ -7,6 +7,7 @@ with open("mylife.txt", "w") as main_file:
 # While loop asking the user for the lines
     while True:
 # Ask the user to input lines
+        inputted_lines = input("Enter line:")
 # Input the lines in the text file
 # Inputted the lines in different line
 # Asking the user if are there more lines
