@@ -15,6 +15,8 @@ with open("mylife.txt", "w") as main_file:
 # Asking the user if are there more lines
         ask_user = input("Are there more lines y/n?")
 # If the user inputted "y", continue
+        if ask_user == "y":
+            continue
 # Elif the user inputted "n", break
 # Else, invalid
 # Ask the user again if there are more lines
